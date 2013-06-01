@@ -3,11 +3,11 @@ class PuppetOmnibus < FPM::Cookery::Recipe
 
   section "Utilities"
   name "puppet-omnibus"
-  version "3.1.0"
+  version "2.7.21"
   description "Puppet Omnibus package"
-  revision 5
-  vendor "fpm"
-  maintainer "<github@tinycat.co.uk>"
+  revision "5~2.7Centos6"
+  vendor "aptivate"
+  maintainer "<adrians@aptivate.org>"
   license "Apache 2.0 License"
 
   source '', :with => :noop
